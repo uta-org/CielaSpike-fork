@@ -3,3 +3,4 @@ obj/
 Properties/
 *.config
 *.csproj
+*.meta
