@@ -3,6 +3,8 @@ using UnityEngine;
 
 namespace CielaSpike
 {
+#if !UNITY_2020 && !UNITY_2019 && !UNITY_2018 && !UNITY_2017 && !UNITY_5
+
     public static class ThreadNinjaMonoBehaviourExtensions
     {
         /// <summary>
@@ -27,4 +29,6 @@ namespace CielaSpike
             return StartCoroutineAsync(behaviour, routine, out var t);
         }
     }
+
+#endif
 }
