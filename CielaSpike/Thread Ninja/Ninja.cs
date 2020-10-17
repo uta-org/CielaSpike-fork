@@ -1,6 +1,6 @@
 namespace CielaSpike
 {
-#if !UNITY_2020 && !UNITY_2019 && !UNITY_2018 && !UNITY_2017 && !UNITY_5
+    //#if !UNITY_2020 && !UNITY_2019 && !UNITY_2018 && !UNITY_2017 && !UNITY_5
 
     /// <summary>
     ///     Ninja jumps between threads.
@@ -24,5 +24,5 @@ namespace CielaSpike
         }
     }
 
-#endif
+    //#endif
 }
